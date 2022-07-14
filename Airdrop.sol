@@ -11,7 +11,7 @@ constructor(uint walletAmount){
 
     function airDrop(uint airdropAmount) public view returns(uint){
         uint airdropped;
-         airdropped = stakingWallet ;
+         
         if(stakingWallet >= 10){
             airdropped = stakingWallet + airdropAmount;
                     }
